@@ -1,12 +1,57 @@
-<!DOCTYPE HTML>
-<html>
+ <!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Embedded Style Sheet</title>
-<link rel="stylesheet" type="text/css" href="https://github.com/piercecampbell/home-run-record/blob/master/stylesheet.css">
- </head>
- <body>
- 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style>
+    h1  {
+       text-align: center;
+       font-size: 12pt;
+       color: White;
+       margin-bottom: 5px;
+       text-decoration: underline;
+      background-color:Black
+    }
+    
+    table {
+       margin: 5px;
+       width: 290px;
+      border-style: solid;
+        border-width: 10px 10px 10px 10px;
+    }
+    
+    th {
+       padding: 3px;     
+    }
+    
+    td {
+       padding-left: 8px;
+       padding-right: 8px;
+       border: 1px solid #990000;
+       background-color: green;
+       color: white;
+    }
+    
+    #trHeader {
+       text-decoration: underline;
+       color: #990000;
+    }
+    
+    .centerCell {
+       text-align: center;
+    }
+  #baseball {
+      width:500px;
+  }
+  #BaseBall {
+   text-align:center;
+  }
+  
+
+ </style>
+</head>
+<body>
  <div>
  <h1>All-time Home Run Record</h1>
  <table>
@@ -36,6 +81,24 @@
      <td>Giants</td>
    </tr>
  </table>
- </div>
- </body>
- </html>
+   <img id="baseball" alt="Favorite Baseball Players" src="https://usathss.files.wordpress.com/2017/06/baseball_graphic1.jpg?w=1000&h=600&crop=1">
+   <ol>
+     <li>David Ortiz</li>
+       <li>Manny Ramirez</li>
+       <li>Mike Lowell</li>
+       <li>Mookie Betts</li>
+       <li>Kevin Youkilis</li>
+       <li>Jacoby Ellsbury</li>
+  	<li>Pedro Martinez</li>
+       <li>Jon Lester</li>
+       <li>Jason Varitek</li>
+       <li>Johnny Damon</li>
+   </ol>
+   <p id="BaseBall">Baseball<br>
+     Baseball is an old, classic sport and<br> I still love to watch it.
+     It is America's Pastime<br> and it is over 100 years old.
+     It is not my favorite sport, nor do I play it 
+   </p>
+  </div>
+</body>
+</html>
